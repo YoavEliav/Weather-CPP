@@ -42,8 +42,8 @@ int main() {
     // Load Fonts
     io.Fonts->AddFontDefault();
 
-    WeatherManager weatherManager("13cb2a7d204618b913590be8f4b1f8eb"); // Our API key
-    // 202b20677170de8ee0ca0e1c18e012d2 - buckup API key
+    WeatherManager weatherManager("ENTER_YOUR_API"); // Our API key
+    
 
     // Main loop
     while (!glfwWindowShouldClose(window)) {
